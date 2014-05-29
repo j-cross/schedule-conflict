@@ -1,0 +1,1 @@
+This project will be a springboard for more complex functionality. For now, it will simply flag an event if it is overlapping one that is already in the system.
