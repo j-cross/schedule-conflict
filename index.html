@@ -1,0 +1,25 @@
+<html itemscope="" itemtype="http://schema.org/WebPage" lang="en">
+<head>
+	<title>Schedule Conflict by Josh Cross</title>
+	<link href="style.css" rel="stylesheet">
+	<link href="datepicker/css/datepicker.css" rel="stylesheet">
+</head>
+<body>
+<div id="container">
+	<header>
+		<h1>Schedule Conflict Checker</h1>
+		<h2>Use the form below to add your event but make sure it doesn't conflict with another event!</h2>
+	</header>
+	<div id="primary">
+		<input id="start-date" type="text" />
+	</div>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="conflict.js" type="text/javascript"></script>
+<script src="datepicker/js/bootstrap-datepicker.js"></script>
+<script>
+	$('#start-date').datepicker();
+</script>
+</body>
+</html>
